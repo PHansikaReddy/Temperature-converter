@@ -5,7 +5,7 @@
             let result;
 
             if (fromUnit === "celsius" && toUnit === "fahrenheit") {
-                result = (temperatureInput * 9/5) + 32;
+                result = (temperatureInput * 18/10) + 32;
             } else if (fromUnit === "celsius" && toUnit === "kelvin") {
                 result = temperatureInput + 273.15;
             } else if (fromUnit === "fahrenheit" && toUnit === "celsius") {
